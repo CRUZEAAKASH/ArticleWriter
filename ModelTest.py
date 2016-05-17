@@ -12,7 +12,7 @@ t2.start(msg='Preparing model')
 lm = cPickle.load(data)
 t2.stop()
 context = ('i', 'love')
-words = ('malviya', 'chutiya', 'hai')
+words = ('my', 'Indian', 'girls')
 lm.backoff.retrain(words)
 n = len(context)
 if n >= 3:
